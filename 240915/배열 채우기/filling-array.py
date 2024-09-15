@@ -6,8 +6,6 @@ for i in range(len(arr)):
     if arr[i] == 0:
         idx = i - 1
 
-while True:
+while idx >=0:
     print(arr[idx], end=" ")
     idx -= 1
-    if idx == -1:
-        break
