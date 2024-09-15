@@ -10,4 +10,4 @@ for num in arr:
     else:
         break
 
-print(f"{Sum} {Sum/count}")
+print(f"{Sum} {round(Sum/count,1)}")
