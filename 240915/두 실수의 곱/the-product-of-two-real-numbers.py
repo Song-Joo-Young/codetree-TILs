@@ -1,3 +1,3 @@
 a, b = 5.26, 8.27
 
-print(round(a*b,3))
+print(f"{float(a*b):.3f}")
